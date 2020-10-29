@@ -6,3 +6,5 @@
 "It's easy to lie with statistics, but it's hard to tell the truth without them" - Andrejs Dunkels  
 
 ## Chapter 1: What's the Point?
+
+Testing using vs code to do stuff
