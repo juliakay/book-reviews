@@ -42,3 +42,6 @@ Statistics help us process data, which is really just a fancy name for *informat
 **5. Lies, Damned Lies, and Statistics**
 - Statistics typically builds cases on imperfect data. There are limits on the data we can gather and the kinds of experiments we can perform.  
 - At the end of the day we must conduct analysis using the best data and methodologies and resources available. 
+
+## Chapter 2: Descriptive Statistics?
+
