@@ -43,5 +43,23 @@ Statistics help us process data, which is really just a fancy name for *informat
 - Statistics typically builds cases on imperfect data. There are limits on the data we can gather and the kinds of experiments we can perform.  
 - At the end of the day we must conduct analysis using the best data and methodologies and resources available. 
 
-## Chapter 2: Descriptive Statistics?
+## Chapter 2: Descriptive Statistics
 
+Descriptive Statisics are just a "sumamary" statistic often used to compare two or more things.
+
+When given a large set of data, was is typically a good first step? Find the "middle" statistics - the "central tendancy". 
+
+Helpful Metrics:
+- Mean : Often skewed by outliers
+- Median
+    - Quartiles
+- Standard Dev
+    - Variance: sqrt (stdev) - a measure of how far from mean - rarely used as a descriptive statistic
+
+The Normal Distribution:
+- Data that is distributed normally in a bell shape around it's meam
+
+Perventage change vs percentage. Change in rate vs rate difference.
+    - Know and mind the differences 
+
+## Chapter 3: Deceptive Description?
