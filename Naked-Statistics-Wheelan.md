@@ -1,5 +1,12 @@
 # Naked Statistics by Charles Wheelan
 
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+## Headers
+
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
 
