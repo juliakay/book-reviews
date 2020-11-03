@@ -75,8 +75,9 @@ Perventage change vs percentage. Change in rate vs rate difference.
 This isnt mentioned in the chapter, but I think it is a good technical concept that captures what this chapter is about: 
 - **Simpsons Paradox** :  in which a trend appears in several different groups of data but disappears or reverses when these groups are combined (wikipedia). Aka Thing 1 can be better and worse, greater and less than, increasing and decreasing compared to Thing 2.
     - Why does this happen?
-        - This often happens with percentages, which hides the sample size. Typically one sample size is significantly greater than the other.
-        ![Simpsons](https://miro.medium.com/max/1400/1*l-F5-80NqgsGiDk2I4Z0Ew.png)
+        - This often happens with percentages, which hides the sample size. Typically one sample size is significantly greater than the other.  
+        - Example:
+            ![Simpsons](https://miro.medium.com/max/1400/1*l-F5-80NqgsGiDk2I4Z0Ew.png)
 
 Pretty Cool Stuff
 
