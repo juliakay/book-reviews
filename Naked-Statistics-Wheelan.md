@@ -1,7 +1,7 @@
 # Naked Statistics by Charles Wheelan
 
 ##### Table of Contents  
-[Chapter 1](#chapter1)
+[Chapter 1](#chapter1)  
 [Chapter 2](#chapter2)  
 [Chapter 3](#chapter3)  
 [Chapter 4](#chapter4)  
