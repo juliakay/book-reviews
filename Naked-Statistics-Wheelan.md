@@ -43,7 +43,7 @@ Statistics help us process data, which is really just a fancy name for *informat
 - Statistics typically builds cases on imperfect data. There are limits on the data we can gather and the kinds of experiments we can perform.  
 - At the end of the day we must conduct analysis using the best data and methodologies and resources available. 
 
-## Chapter 2: Descriptive Statistics
+## Chapter 2: Descriptive Statistics - Who was the beest baseball player of all time?
 
 Descriptive Statisics are just a "sumamary" statistic often used to compare two or more things.
 
@@ -62,4 +62,22 @@ The Normal Distribution:
 Perventage change vs percentage. Change in rate vs rate difference.
     - Know and mind the differences 
 
-## Chapter 3: Deceptive Description?
+## Chapter 3: Deceptive Description - He's got a great personality!
+
+- Accuracy vs Precision
+    - Precision is "exactness" not correctness
+    - Accuracy is correctness
+    - If any answer is accurate, then more precision is usually better, but no amount of preicsion cam make up for inaccuracy 
+    - BUT exactness and specificy can cause a false sense of credibility - so be careful 
+    - How does this relate to statistics?
+        - Wrong assumtopins can give us precision math but totally miss the point of exactly what we are trying to define, describe or explain.
+
+This isnt mentioned in the chapter, but I think it is a good technical concept that captures what this chapter is about: 
+- **Simpsons Paradox** :  in which a trend appears in several different groups of data but disappears or reverses when these groups are combined (wikipedia). Aka Thing 1 can be better and worse, greater and less than, increasing and decreasing compared to Thing 2.
+    - Why does this happen?
+        - This often happens with percentages, which hides the sample size. Typically one sample size is significantly greater than the other.
+        ![Simpsons](https://miro.medium.com/max/1400/1*l-F5-80NqgsGiDk2I4Z0Ew.png)
+
+Pretty Cool Stuff
+
+## Chapter 4: Correlation - How does Netflix know what movies I like?
