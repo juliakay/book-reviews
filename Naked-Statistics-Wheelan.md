@@ -1,16 +1,17 @@
 # Naked Statistics by Charles Wheelan
 
 ##### Table of Contents  
-[Headers](#headers)  
+[Chapter 1](#chapter1)  
 [Emphasis](#emphasis)  
-...snip...    
 <a name="headers"/>
-## Headers
+
 
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
 
 "It's easy to lie with statistics, but it's hard to tell the truth without them" - Andrejs Dunkels  
+
+<a name="chapter1"/>
 
 ## Chapter 1: What's the Point?
 
