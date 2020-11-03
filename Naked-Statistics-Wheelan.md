@@ -1,10 +1,11 @@
 # Naked Statistics by Charles Wheelan
 
 ##### Table of Contents  
-[Chapter 1](#chapter1)  
-[Emphasis](#emphasis)  
-<a name="headers"/>
-
+[Chapter 1](#chapter1)
+[Chapter 2](#chapter2)  
+[Chapter 3](#chapter3)  
+[Chapter 4](#chapter4)  
+[Chapter 5](#chapter5)      
 
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
@@ -12,7 +13,6 @@
 "It's easy to lie with statistics, but it's hard to tell the truth without them" - Andrejs Dunkels  
 
 <a name="chapter1"/>
-
 ## Chapter 1: What's the Point?
 
 >Statistics is a handy tool for collapsing complex information into a single number. It has no intrinsic meaning, but a rather a tool for comparison.   
@@ -51,6 +51,7 @@ Statistics help us process data, which is really just a fancy name for *informat
 - Statistics typically builds cases on imperfect data. There are limits on the data we can gather and the kinds of experiments we can perform.  
 - At the end of the day we must conduct analysis using the best data and methodologies and resources available. 
 
+<a name="chapter2"/>
 ## Chapter 2: Descriptive Statistics - Who was the beest baseball player of all time?
 
 Descriptive Statisics are just a "sumamary" statistic often used to compare two or more things.
@@ -70,6 +71,7 @@ The Normal Distribution:
 Perventage change vs percentage. Change in rate vs rate difference.
     - Know and mind the differences 
 
+<a name="chapter3"/>
 ## Chapter 3: Deceptive Description - He's got a great personality!
 
 - Accuracy vs Precision
@@ -89,4 +91,5 @@ This isnt mentioned in the chapter, but I think it is a good technical concept t
 
 Pretty Cool Stuff
 
+<a name="chapter4"/>
 ## Chapter 4: Correlation - How does Netflix know what movies I like?
