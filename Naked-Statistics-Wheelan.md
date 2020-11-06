@@ -5,7 +5,8 @@
 [Chapter 2](#chapter2)  
 [Chapter 3](#chapter3)  
 [Chapter 4](#chapter4)  
-[Chapter 5](#chapter5)      
+[Chapter 5](#chapter5)  
+[Chapter 5.5](#chapter5.5)     
 
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
@@ -38,6 +39,7 @@ Statistics help us process data, which is really just a fancy name for *informat
 **3. Asessing Risk and Other Probability-Related Events**
 - Why do casinos "always" win? 
     - Casinos are not making money at any given moment, but are making money in the long-run. This is because the underlying probabilites of each event (drawing 21 in blackjack or landing on red in roulette) is known - and these probabilities always favor the house.  
+    - This also hinges on the Law of Large Numbers. See [Chapter 5](#chapter5)  
 - All risk models have probability at it's foundation. Casinos, business, the 2008 crisis, insurance etc. We usually can not make these risks ever go away, but we can engineer cheats to protect ourselves ( i.e. charging premiums, building fences, installing fire detectors).  
 
 **4. Identifying Important Relationships (Statistical Detective Work)**
@@ -120,4 +122,34 @@ Regarding Netflix question - an over simplified explanation:
 
 <a name="chapter5"/>
 
-## Chapter 5: Correlation - How does Netflix know what movies I like?
+## Chapter 5: Basic Probability - Don't buy the extended warranty on your $99 printer
+
+**Probability** is the study of events and outcomes involving an element of uncertainty.
+- It can tell us what is likely to happen and what is less likely to happen
+- It can also sometimes tell us after the fact what likely happened and what likely did not happen
+
+Example: CSI DNA match
+- Saliva is found on an apple core and we extract the DNA
+- It looks something like _234__23_576_8_97___5_6
+- 2*234*76*23*6*576*7*8*4*97*808*5*0*6* is someones DNA - we have a match!
+- This is where probability comes in, what are the odds that this is the wrong person and that the match was purely by chance
+- The more samples, data, and time we have - the more certina we can become
+
+Probability of multiple events
+- If two events are independent
+    - P(A and B) = P(A) * P(B)  
+    - P(A or B) = P(A) + P(B)  
+- Expected Value - useful in finance, determining "fairness", finding the value of something, total payouts/costs etc
+    - To help visualize think of probability tree. Each branch split should always add back up to 100%
+
+Law of Large Numbers
+- Given any number of trials, the outcome will always converge around the expected value which will look like a bell curve
+- As the number of trials increase, the outcomes strongy aggregate around the EV and the probability of getting something outside of the EV falls sharply. This will graph will have a very point middle
+
+So why no warrranty on printer? 
+Because insurance companies make money off statistics. The cost of the warranty will always be greater than the expected value of the loss. On average, you would have to pay morer for the warranty than to fix it. The only reason to buy insurance is to avoid any large/sudden costs that you cannot comfortably afford to withstand.   
+So with that said, billionaries should never buy insurance because they should be able to afford anything that might happen to them. Not buying insurance would actually save them money!
+
+<a name="chapter5.5"/>
+
+## Chapter 5.5: The Monty Hall Problem
