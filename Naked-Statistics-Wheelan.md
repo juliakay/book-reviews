@@ -1,4 +1,4 @@
-# Naked Statistics by Charles Wheelan
+# Naked Statistics by Charles Wheelan - Notes, Summary, and Some Additional Thoughts
 
 ##### Table of Contents  
 [Chapter 1](#chapter1)  
