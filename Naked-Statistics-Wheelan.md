@@ -97,3 +97,27 @@ Pretty Cool Stuff
 <a name="chapter4"/>
 
 ## Chapter 4: Correlation - How does Netflix know what movies I like?
+
+*Correlation* measures the degree to which two phenomena are related to one another. The power of correlation as a statistial tool is that we can encapsulate an association between two variables ina single descriptive statistic: *the correlation coefficient*. The value will range from -1 to 1 and has no unit (which is a good thing! less complexity is good).
+
+How its calculated - intuitively:
+1. Calculate the mean and the std dev for the two variables you are comparing
+2. Convert each variable as a measure of std dev from the mean (and don't forget the proper sign)
+3. Take the product of moth std dev measurements
+4. Sum all products and divide by number of opervations
+If the two variables tend to deviate from the mean in any meaningful pattern than we have a correlation!
+- Formula:
+    ![CorrelationCoef](https://lh3.googleusercontent.com/proxy/O6Et7Hnti-XCdwa95XA8Zdt8axsGChHS6-yQzN8YwTgkQE5qhkqGI_9VgfjrH52lXlM78tnphcoCyk39Sfoxbw13vpke08B1O2uw9Q)
+
+**Fun Fact**: SAT and college performance have a correlation of 0.54. High school GPA and college performance have a correlation of 0.54. But High School GPA combined with SAT have a 0.64 correlation with college performance.
+
+Just keep in mind that correlation does not imply causation 
+
+Regarding Netflix question - an over simplified explanation: 
+- You rate films and Netflix has a sample of films you like
+- Netflix takes your data and finds a handful of other users that like the same thing aka have high positive correlation with
+- Netflix reommends films that similar people rated highly that you have not watched yet
+
+<a name="chapter5"/>
+
+## Chapter 5: Correlation - How does Netflix know what movies I like?
