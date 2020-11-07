@@ -7,6 +7,8 @@
 [Chapter 4](#chapter4)  
 [Chapter 5](#chapter5)  
 [Chapter 5.5](#chapter5.5)     
+[Chapter 6](#chapte6)  
+[Chapter 7](#chapte7)  
 
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
@@ -153,3 +155,45 @@ So with that said, billionaries should never buy insurance because they should b
 <a name="chapter5.5"/>
 
 ## Chapter 5.5: The Monty Hall Problem
+
+what is the Monty Hall Problem? 
+- There are three doors. One of which has a prize, the other two have a goat
+- If you pick the door with the prize you win!
+- Once you pick a door, one of the other two doors that does not contain the prize will be revealed
+- You are then given the option to switch your choice of door. **Do you switch doors?**
+    - If you switch you have a 2/3 chance of winning
+    - If you don't switch, you have a 1/2 chance of winning
+
+Why is it 2/3 instead of 1/3 if he switches?
+- Because Monty knows which door has the prize. So by switvhing we get the benefit of choosing two doors rather than one
+- It's the equivalent of being asked, *would you like to switch your choice for both of the other doors you did not choose?*
+    - To this you should say yes because 2 doors > 1 door
+
+Makes sense why this show isn't still going on - 2 out of 3 contestants would have walked away with very big prizes after revealing that stats behind it.
+
+<a name="chapter6"/>
+
+## Chapter 6: Problems with Probability - How overconfident math geeks nearly destroyed the global financial system
+
+The importance of understanding the "tail risk", the small risk of some catastrophic outcome.
+
+Imagine having an airbag that works 99% of the time - an airbag that works all the time, except when you have a car accident. LOL
+
+2008 Financial Crisis was driven by 3 main errors:
+1. Confusing precision with accuracy
+    - like a ruler set to inches instead of cm when you were expecting cm, exact and wrong
+2. The estimated and assunmptions of the underlying probabilites were wrong
+    - Past events don't always predict future events, especially in the market
+3. They neglected their "tail risk"
+    - Focusinig on the 99% upside and not the potential 1% catastrophe
+
+Tips:
+- Understanding when events ARE and ARE NOT independent
+- Streaks and anomolies happen, it's instinct to assume something besides randomness caused it. But its's probably just randomness
+- Most thing will revert back to the mean
+    - May contradict "gambler's fallacy" at first glance - but this say the next event is more likely, but rather with more trials the over all avg will move towards the mean
+- Statistics vs Discrimination - a hot topic, just don't forget the social implications
+
+<a name="chapter7"/>
+
+## Chapter 7: The Importance of Data - Garbage in, garbage out
