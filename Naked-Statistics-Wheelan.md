@@ -175,8 +175,6 @@ Makes sense why this show isn't still going on - 2 out of 3 contestants would ha
 
 ## Chapter 6: Problems with Probability - How overconfident math geeks nearly destroyed the global financial system
 
-The importance of understanding the "tail risk", the small risk of some catastrophic outcome.
-
 Imagine having an airbag that works 99% of the time - an airbag that works all the time, except when you have a car accident. LOL
 
 2008 Financial Crisis was driven by 3 main errors:
@@ -184,7 +182,7 @@ Imagine having an airbag that works 99% of the time - an airbag that works all t
     - like a ruler set to inches instead of cm when you were expecting cm, exact and wrong
 2. The estimated and assunmptions of the underlying probabilites were wrong
     - Past events don't always predict future events, especially in the market
-3. They neglected their "tail risk"
+3. They neglected their "tail risk", , the small risk of some catastrophic outcome.
     - Focusinig on the 99% upside and not the potential 1% catastrophe
 
 Tips:
