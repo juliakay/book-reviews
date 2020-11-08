@@ -195,3 +195,35 @@ Tips:
 <a name="chapter7"/>
 
 ## Chapter 7: The Importance of Data - Garbage in, garbage out
+
+3 Things we demand of data:
+1. The data sample is representative of some larger group or population
+    - a representative sample is the most powerful thing
+    - It's harder than it looks
+    - Good methods, applied to bad samples are way too common (and this is bad)
+    - Size matters, the bigger the better
+2. The data provides some source of comparison
+    - Test vs control groups
+    - Reaching perfect control scenarios are hard, but we can often rely on probability and randomization to help divide the groups
+3. Collect data just because you can, becaues you never know when you might need igt
+
+Selection Bias
+- Self explanatory - Gathering our data from only a subset of the population
+- Control and test groups should also not always be directly compared, since implications for why someone was in a certain group may exist
+- Self Selection Bias
+
+Publication Bias
+- Positive findings are more likely to be published than negative findings
+    - Negative: Video games *do not* prevent colon cancer
+    - Positive: Video games *do* lower the incidence of colon cancer
+    - Be careful, because sometimes the positive study may have occured by chance and gets published regardless
+
+Recall Bias
+- This is occurs when we as a sample to recall their past, rather than collecting ourselves X years ago. Often times they will recall a memory that is exaggerated
+
+Surviorship Bias
+- This occurs when some or mamy of the observations are falling out of the sample, changing the composition of the sample
+- This is often how mutual fund companies advertise their funds, but closing or folding poor performing funds into other ones
+
+Healthy User Bias
+- This comes from the idea that people who faithfully engage in activities and habits that are godo for them, are fundamentally different from those who don't
