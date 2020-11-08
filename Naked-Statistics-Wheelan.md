@@ -7,8 +7,8 @@
 [Chapter 4](#chapter4)  
 [Chapter 5](#chapter5)  
 [Chapter 5.5](#chapter5.5)     
-[Chapter 6](#chapte6)  
-[Chapter 7](#chapte7)  
+[Chapter 6](#chapter6)  
+[Chapter 7](#chapter7)  
 
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
