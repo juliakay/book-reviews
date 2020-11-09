@@ -9,6 +9,9 @@
 [Chapter 5.5](#chapter5.5)     
 [Chapter 6](#chapter6)  
 [Chapter 7](#chapter7)  
+[Chapter 8](#chapter8) 
+[Chapter 9](#chapter9)  
+[Chapter 10](#chapter10)  
 
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
@@ -227,3 +230,45 @@ Surviorship Bias
 
 Healthy User Bias
 - This comes from the idea that people who faithfully engage in activities and habits that are godo for them, are fundamentally different from those who don't
+
+<a name="chapter8"/>
+
+## Chapter 8: The Central Limit Theorem - The Lebron James of statistics
+
+The central limit Theorem leverages probability and proper sampling - using a sample to make inferences about a large population.
+ - A large, properly drawn sample will resemble the population fron with it is drawn
+ - In fact, the probability that any sample will deviate massively from the underlying population is very low
+
+ The CLT allows us to go backwards and forwards (from populat to sample, and vice versa)
+ 1. If we have detailed information about some population, the we can make powerful inferences about any properly drawn sample. (We can expect them to behave the same)
+ 2. If we have detailed information about some properly drawn sample, we can make strikingly accurate inferences about the popluation from which the sample was drawn.
+ 3. If we have detailfed information about **both** the sample population and the total population, we can calculate the probability of that particular sample getting drawn from a given population. ( i.e. If this probability is low, we can conclude with high confidence that the sample is actually not drawn from the population)
+ 4. If we have information about 2+ samples only, we can infer whether or not both samples were likely drawn from the same population.
+    
+Understanding confidence intervals, hypothesis, standard error and marathon buses 
+- approx 99 out of 100 times, the mean of any randomly selected sample will be within 1 standard deviation of the entire population
+- if the sample mean is -/+ 1 std dev greater than the pop. mean, that means we can reject the hypothesis that the sample is from the population with 99% certainty
+    - also means we'll be wrong 1% of the time ;)
+- **Sample means for any population will be distributed roughly as a normal distribution around the population mean**
+    - quick refresher:
+        - 68% within -/+ 1 standard deviation
+        - 95% within -/+ 2 standard deviation
+    - the original population does not even need to have a normal distribution for its sample means to be normally distributed
+    - sample size n > 30 **
+- **Standard Error** is the finishing touch. It will tell us the dispersion of the sample mean aka how tight the samples means will cluster aroudn the population mean.
+    - NOT to be confused with Standard Deviation
+        - Standard Deviation: measures dispersion in the underlying population
+        - Standard Error: measures dispersion of *the sample means*. It is the std dev of the sample means!
+            - Formula for SE = std dev / sqrt(n)
+                - where n is the size of the sample
+    - Using CLT we know that 68% of sample means will be within 1 SE, 95% within 2 SE, 99.7% within 3 SE, etc
+
+Summary:
+- Proper samples will resemble the population they come from
+- Sample means will be relatively close to that of the popluation, Standard Error will tell us "how close"
+- It is unlikely that a sample mean will lie more than 2 standard errors from the population mean
+
+
+<a name="chapter9"/>
+
+## Chapter 9: Inference - Why my statistics professor thought I might have cheated
