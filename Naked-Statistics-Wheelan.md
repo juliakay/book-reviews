@@ -9,7 +9,7 @@
 [Chapter 5.5](#chapter5.5)     
 [Chapter 6](#chapter6)  
 [Chapter 7](#chapter7)  
-[Chapter 8](#chapter8) 
+[Chapter 8](#chapter8)  
 [Chapter 9](#chapter9)  
 [Chapter 10](#chapter10)  
 
