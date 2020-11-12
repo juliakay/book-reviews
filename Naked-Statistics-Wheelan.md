@@ -277,6 +277,20 @@ Summary:
     - *Hypothesis testing shows correlation, but not causation*
     - hypothesis testing and statistical signifcance can be decieving when it comes to actually *size* of the difference between test and control
 
+How we argue to reject the null:
+1. If the null were true, we would rarely see this amount of variation in outcomes between test and control groups
+2. Therefore, if it highly unlikely that the null is true
+3. So finally, an alternative - and more likely - explanation for the pattern of data observed is the alternative hypothesis 
+
+
+What happens when we dont reject the null:
+- Often times this strictly means we have *failed to reject* our null hypothesis, we did not *prove* the null hypothesis to be true
+- The judgement and position of whoever is reading the experiment can then decide how to interpret it
+- Example: Test cheating scandal
+    - We observed that the number of answer changes from wrong to right in the last 10 mins are 20-50 std dev above norm
+    - With such high std dev, we can reject the null hypothesis that these results were legitimate
+    - *But they could not prove that cheating was going on*, but using our judgement we can assume they cheated
+
 When to reject the null:
 - If the null hypotehsis is true, how likely is it that we would observe this pattern of data by chance?
 - a probability of 0.05 or 5% is the most common thresohold for significant level
@@ -286,10 +300,28 @@ When to reject the null:
 - **p-value** is the *specific* probability of getting a result at least as extreme as the one you've observed if the null hypothesis is true
     - if we reject the null, that means the probability of what we observed would happen at less than 5%. The p-value should tell us exactly how probable the even will happen
 
+Hypothesis Testing: Comparing two groups - We can calculate the probability of observing a difference of means at least this large (between two groups)
+- Intuition:
+    - If we drew two samples from the same population, we would expect the difference between the two sample means to be zero
+    - We can calculate the standard error expected between two sample means, a measure of the dispersion we can expect
+    - Using this standard error metric, we can calculate the probability that two samples come from the same population
+- What we know from CLT:
+    - CLT tells us sample means will follow the normal distribution
+    - If two samples come from the same population, the difference between their means will be within 1 **standard error** of zero 68% of the time
+        - the difference between their means will be within 2 standard error of zero 95% of the time
+    - This standard error is calculated like so:
+    ![Standard Error](https://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/SAS/SAS5-Comparing2IndependentMeans/Equation13.png)
+    - where S is the standard DEVIATION of the POPULATION
+
 Type I: False Positive
 Type II: False Negative
 
-Lots of good info in this chapter about hypothesis testing - will add more content later    
+One- and Two- Tailed Hypothesis Testing
+- Depending on how many tails, our cutoff point ofr rejecting our null hypothesis will be different
+- Two- Tailed: we account for large difference in means in both directions: positive and negative 
+    - If using a 5% significance level, that means we will allow for 2.5% probability on both ends
+- One- Tailed: We account for a large difference in means in one direction: greater or less than
+    - If using a 5% significance level, we will have all 5% wiggle room in one tail
 
 <a name="chapter10"/>
 
