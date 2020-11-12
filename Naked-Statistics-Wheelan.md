@@ -266,9 +266,31 @@ Understanding confidence intervals, hypothesis, standard error and marathon buse
 Summary:
 - Proper samples will resemble the population they come from
 - Sample means will be relatively close to that of the popluation, Standard Error will tell us "how close"
-- It is unlikely that a sample mean will lie more than 2 standard errors from the population mean
-
+- It is unlikely that a sample mean will lie more than 2 standard errors from the population mean   
 
 <a name="chapter9"/>
 
 ## Chapter 9: Inference - Why my statistics professor thought I might have cheated
+
+**Hypothesis Testing** - USing statistical inferences to accept or reject explanations on the basis of their likelihood.
+    - All hypothesis testing must start with a null hypothesis. This is often created in hopes of being rejected
+    - *Hypothesis testing shows correlation, but not causation*
+    - hypothesis testing and statistical signifcance can be decieving when it comes to actually *size* of the difference between test and control
+
+When to reject the null:
+- If the null hypotehsis is true, how likely is it that we would observe this pattern of data by chance?
+- a probability of 0.05 or 5% is the most common thresohold for significant level
+    - if the chance of what happened (given that the null is true) is less than 5%
+    - if the mean of the sample is true mean +/- 2 std error, then we can reject the null
+- When we can reject a null hypothesis at some reasonable significance level, the results are said to be **statistically significant**
+- **p-value** is the *specific* probability of getting a result at least as extreme as the one you've observed if the null hypothesis is true
+    - if we reject the null, that means the probability of what we observed would happen at less than 5%. The p-value should tell us exactly how probable the even will happen
+
+Type I: False Positive
+Type II: False Negative
+
+Lots of good info in this chapter about hypothesis testing - will add more content later    
+
+<a name="chapter10"/>
+
+## Chapter 10: Polling - How we know that 64% of Americans support the death penalty (with a sampling error +/- 3%) 
