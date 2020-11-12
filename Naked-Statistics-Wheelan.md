@@ -313,8 +313,8 @@ Hypothesis Testing: Comparing two groups - We can calculate the probability of o
     ![Standard Error](https://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/SAS/SAS5-Comparing2IndependentMeans/Equation13.png)
     - where S is the standard DEVIATION of the POPULATION
 
-Type I: False Positive
-Type II: False Negative
+**Type I:** False Positive  
+**Type II:** False Negative
 
 One- and Two- Tailed Hypothesis Testing
 - Depending on how many tails, our cutoff point ofr rejecting our null hypothesis will be different
