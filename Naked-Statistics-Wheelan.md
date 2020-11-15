@@ -362,7 +362,7 @@ Not sure when I will ever use polling...but still good to know!
 
 <a name="chapter11"/>
 
-## Chapter 11: Regression Analysis - 
+## Chapter 11: Regression Analysis - The miracle elixir
 
 **Regression Analysis** allows us to quantify the relationship between a particular varriable and an outcome that we care about *while controling other factors*.
 - In other words, isolating the effect of one varirable while holding the effects of the other variables constant
