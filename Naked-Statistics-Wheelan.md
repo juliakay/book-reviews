@@ -12,6 +12,7 @@
 [Chapter 8](#chapter8)  
 [Chapter 9](#chapter9)  
 [Chapter 10](#chapter10)  
+[Chapter 11](#chapter11)  
 
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
@@ -326,3 +327,39 @@ One- and Two- Tailed Hypothesis Testing
 <a name="chapter10"/>
 
 ## Chapter 10: Polling - How we know that 64% of Americans support the death penalty (with a sampling error +/- 3%) 
+
+A **Poll** is an inference about the opinions of some population that is biased on the views expressed by some sample drawmn from that population.
+- Stems from the Central Limit Theorem, if we take a large enough, representative sample we can assume that our sample will look a lot like the population from which it is drawn
+
+Polls vs other samples:
+- Polls will have a sample statistic thatis a percentage or proportion
+- Others forms of samples may use a mean
+
+when the sample satistic is a percentage:
+- the standard error is slightly different
+    - sqrt(p(1-p)/n)
+        - p = proportion of respondents expressing a particular view
+        - as n increases, the standard error will decrease
+        - error will be smaller if the "p"s are further apart, more different
+
+Example: Election results:
+- Repub: 53%, Dem: 45%, Ind: 2%
+- Standard Error (using repub candidate as proportion of interest) = 2%
+- we can be 68% sure with a margin of error of 2%
+- we can be 95% sure with a margin of error of 4%
+    - this puts Repub: [49%,57%] and Dem: [41%, 49%]
+    - So there might be a tie...is there anything we can do (without more data)? Nope, other than just give a more timid and vague conclusion
+    - if we had more data, even if it was similar in results, by increasing n we could potentially decrease the standard error giving us a better answer
+- Technically each group will have its own standard error, but in practice it is common to go with the SE that is higher in value
+
+Tips for Polling
+- Is this an accurate sample of the population?
+    - watch out for low response rates and volunteers. This can lead to samplng bias
+- Have the questions been posed in a way that elicits accurate information on the top of interest?
+- Are respondents telling the truth?
+
+Not sure when I will ever use polling...but still good to know!
+
+<a name="chapter11"/>
+
+## Chapter 11: Regression Analysis
