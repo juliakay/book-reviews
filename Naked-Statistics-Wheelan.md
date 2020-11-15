@@ -362,4 +362,53 @@ Not sure when I will ever use polling...but still good to know!
 
 <a name="chapter11"/>
 
-## Chapter 11: Regression Analysis
+## Chapter 11: Regression Analysis - 
+
+**Regression Analysis** allows us to quantify the relationship between a particular varriable and an outcome that we care about *while controling other factors*.
+- In other words, isolating the effect of one varirable while holding the effects of the other variables constant
+- Regression will also only give us an estimate
+- Regression is powerful in that is allows us to unravel complex relationships in which multiple factors affect some outcome that we care about
+    - Giving us an estimate of *each* explanatory variable and the dependent variable while holding other dependent variables constant
+- This becomes increasing valuable when we are unable to do controlled experiments on people
+
+What is needed for Regression:
+- Similar to polling, we need a good and representative sample
+
+- Example: Exercise and Disease
+    - We see results that people who exercise 3-4 times a week have sharply lower rates of heart disease than people who don't exercise
+    - We can say we see an association between exercise and heart disease. 
+    - It is NOT to tell nonexercisers who are sick that they should have exercised
+    - We are NOT proving definitively that exercise prevents hearts disease
+    - We are only rejecting the null hypothesis that exercise has no association with heart disease
+
+Simply put, the slope of the line (the regression coeff) will tell is the direct impact of one dependent variable and our variable of interest
+- when looking at the regression coeff, considerr its Sign, Size and Significance
+- Standard Error and Reg Coeff
+    - We can also computer the standard error of the coeff and see how it changes if we were to resample and rerun our regression
+    - Sample size matters here:
+        - Large sample : follow normal distribution
+        - Small sample : follow t-distribution (flatter and fatter tails / more dispersed)
+            - The t-distribution will vary depending on how many degrees of freedom we have. As df approaches infinity, the t-distribution will become the normal distribution
+            - That means the underlying probabilities will also change (vs normal distribution)
+            - Using the t-distribution and t-statistic
+                - calcualte the t-statistic = coeff/ standard error
+                - evaluate t-statistic against the appropriate t-distribution
+                - when t-statistic is large, that means our observed coeff is far from what the null would predict (usually 0), and we can reject the null
+            - the fewer degrees of freedon (smaller sample), the larger the t-statistic would have to be for us to reject the null
+
+Regression and Hypothesis testing:
+- Often times the null hypothesis says that the regression coefficient is zero (no relationship)
+- 95% of our sample will have a coeff that is reg coeff +/- (2 * std error)
+    - if 0 is not in our interval, we can reject the null
+- Rule of thumb, if the coefficient is at least twice the size of the standard error, it is likely to be statistically significant
+    - The ratio of the standard error : coefficient is call the **t-statistic**
+
+
+**R^2 Statisic** tells us the total amount of variable explained by the regression equation
+- If R^2 Statistic is .25 or 25%, that means 75% of the data is unexplained and that there are other factors that influence our variable
+- As we add more variables, the regression will calculate it so to minimize the total sum of the squared residuls for the regression equation
+
+What happens when we add features to our regression:
+- As we add all the coeff will adjust accordingly
+- Make sure all the coeff are still statistically significant 
+- Hopefully R^2 will also increase
