@@ -13,6 +13,8 @@
 [Chapter 9](#chapter9)  
 [Chapter 10](#chapter10)  
 [Chapter 11](#chapter11)  
+[Chapter 12](#chapter12)  
+[Chapter 13](#chapter13)  
 
 ## Introduction 
 "The point of this book is to make the most important statistical concepts more intuitive and more acessible"   
@@ -412,3 +414,31 @@ What happens when we add features to our regression:
 - As we add all the coeff will adjust accordingly
 - Make sure all the coeff are still statistically significant 
 - Hopefully R^2 will also increase
+
+<a name="chapter12"/>
+
+## Chapter 12: Common Regression Mistakes - The mandatory warning label
+
+7 Common Mistakes
+
+1. Using regression to analyze a nonlinear relationship
+2. Correlation does not equal causation
+3. Reverse causality
+    - An association between A and B does not prove A causes B. In fact, it is possible that B is causing A.
+4. Omitted variable bias
+    - Don't exclude important explanatory variables
+5. Highly correlated explanatory variables (multicollinearity)
+`   - This happens when 2+ variables are essentally "overlap" and we can not isolate the effect of on on the dependent variable
+    - To account for this, either use just 1 of the varibles or create a new composite variable that accounts for all of them
+6. Extrapolating beyond the data
+    - Our results are valid only for a population that is similar to the sample on which the analysis has been done
+7. Data mining (too many variables)
+    - This about the coin flip scenario where someone flips tails 5 times in a row. We know it's just luck, of often times we look into irrelevant details like "technique", outfit, age, gender, etc which is all irrelevant and misleading
+
+TL;DR:
+- Think logically about what variables should be included, what might be missing, and how the results can/should be interpreted
+- Regression points is in the right direction, but is rarely enough to prove anything
+
+<a name="chapter13"/>
+
+## Chapter 13: Program Evaluation - Will going to Harvard change your life?
