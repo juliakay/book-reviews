@@ -442,3 +442,11 @@ TL;DR:
 <a name="chapter13"/>
 
 ## Chapter 13: Program Evaluation - Will going to Harvard change your life?
+
+**Program Evaluation:** The process by which we seek to measurer tthhe casual effect of some intervention (cancer drug, job placement program, etc)
+
+Common approaches for isolating a treatment effect:
+1. Randomized, controll experiments - the basic test and control groups
+2. Natural Experiment - using life situations and scenarios to our advantage
+3. Nonequivalent control - nonrandom groups
+4. Difference in differences - looks at the cause and effect, before and after
