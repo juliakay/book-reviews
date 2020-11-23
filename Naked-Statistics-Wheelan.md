@@ -463,11 +463,11 @@ Fun final words from the author:
 
 ## My personal thoughts
 
-I just finished reading this book and I'm very glad that I didn't put it down after chapter 1. For context, I am entry-level Data Scientist with an engineering degree. In other words, I've taken and been exposed to stats for a very long time. Initially chapter 1-3 felt very basic and rudimentary. I found the examples too long for my liking and skimmed through a lot of it.
+I just finished reading this book and I'm very glad that I didn't put it down after Chapter 1. For context, I am entry-level Data Scientist with an engineering degree. In other words, I've taken and been exposed to stats for a very long time. Initially chapter 1-3 felt very basic and rudimentary. I was scared that I just commited to an overhyped book. In the earlier chapters, I found the examples too long for my liking and skimmed through a lot of it.
 
 But around chapter 3 and 4, I started to get more into it. I knew a lot of the textbook definitions and concepts that Wheelan was explaining, but having someone reteach it to me in plain english definitely has it's value. I can't even count how many times I've been asked to explain statistical concepts in interviews and how I wish I could eloquently ELI5 (Explain Like I'm 5). I particularly liked the chapter about experimentation [Chapter9](#chapter9).
 
 Did I still find myself skimming through some of the examples? Yes. Do I recommend this book to you? Also yes.
 
-**Final Rating: 9/10**
+**Final Rating: 9/10**  
 Reasoning: This is a great easy and fun read to help you build or strengthen your statistical foundation. For someone already working in the data space, this will not revolutionize your analytical skills, but it should make you feel more confident in understanding the *why* behind certain methods.
